@@ -1,0 +1,87 @@
+html,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.clear:after{
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    clear: both; 
+}
+
+.clear{
+    zoom: 1;
+}
+
+.login-all {
+    width: 100%;
+    background-color: #FCFCFC;
+}
+
+.login-all .login-all-school {
+    background: #151B5F;
+    height: 115px;
+    margin-bottom: 20px;
+}
+
+.login-all-school .login-all-school-picture {
+    float: left;
+    margin-right: 240px;
+}
+
+.login-all .login-all-school .login-all-school-name {
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    font-family: STKaiti;
+    letter-spacing: 10px;
+    line-height: 120px;
+}
+
+.login-all-center {
+    width: 980px;
+    height: 28px;
+    margin: 0 auto;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 28px;
+}
+
+.login-all-center .login-all-line{
+    width: 120px;
+    height: 47px;
+    margin: 0 auto;
+    display: block;
+    font-size: 40px;
+    color: #666666;
+    background: #FCFCFC;
+    text-align: center;
+}
+
+.login-all-box{
+    width:280px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+label{
+    font-family: STKaiti;
+    font-size: 30px;
+}
+
+.input-box{
+    width: 410px;
+    height: 40px;
+    background-color: #F0F8FF;
+}
+
+.login-all-middle-bt{
+    width: 186px;
+    height: 38px;
+}
