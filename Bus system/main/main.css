@@ -5,17 +5,17 @@ p {
     padding: 0;
 }
 
-.clear:after{
+.clear:after {
     content: '.';
     display: block;
     visibility: hidden;
     height: 0;
     line-height: 0;
     font-size: 0;
-    clear: both; 
+    clear: both;
 }
 
-.clear{
+.clear {
     zoom: 1;
 }
 
@@ -44,3 +44,4 @@ p {
     letter-spacing: 10px;
     line-height: 120px;
 }
+
